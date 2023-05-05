@@ -1,0 +1,16 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: 'Manrope', sans-serif;
+}
+
+input[type="text"],input[type="password"],input[type="email"],input[type='number']{
+    @apply w-full border my-2 py-2 px-4 rounded-xl outline-none;
+}
